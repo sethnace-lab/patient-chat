@@ -2,5 +2,8 @@
   "name": "patient-chat-proxy",
   "version": "1.0.0",
   "private": true,
-  "description": "Tiny proxy server for Emergency Code Alpha's patient chat feature. Holds the Anthropic API key privately and forwards chat requests. No dependencies needed -- uses Node's built-in fetch."
+  "description": "Tiny proxy server for Emergency Code Alpha's patient chat feature. Holds the Anthropic API key privately and forwards chat requests. No dependencies needed -- uses Node's built-in fetch.",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
 }
